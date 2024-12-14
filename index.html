@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paz Saúde</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8fdf8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #eaf7ea;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            color: #2b7a2b;
+            margin: 0;
+        }
+
+        header p {
+            color: #4f8c4f;
+            margin: 5px 0 0;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .service {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .service h3 {
+            color: #2b7a2b;
+        }
+
+        .contact {
+            margin: 40px 0;
+            text-align: center;
+        }
+
+        .contact form {
+            display: inline-block;
+            text-align: left;
+            max-width: 400px;
+            width: 100%;
+            background: #ffffff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .contact input, .contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact button {
+            background-color: #2b7a2b;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact button:hover {
+            background-color: #246624;
+        }
+
+        footer {
+            background-color: #eaf7ea;
+            padding: 10px;
+            text-align: center;
+            color: #4f8c4f;
+            font-size: 0.9em;
+            margin-top: 20px;
+        }
+
+        .chat {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #2b7a2b;
+            color: white;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            cursor: pointer;
+        }
+
+        .chat:hover {
+            background-color: #246624;
+        }
+
+        .chat-icon {
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Paz Saúde</h1>
+        <p>Serviços de cuidados especiais no conforto do seu lar</p>
+    </header>
+
+    <div class="container">
+        <section class="services">
+            <div class="service">
+                <h3>Atendimento Médico</h3>
+                <p>Consultas médicas no conforto de sua casa.</p>
+            </div>
+            <div class="service">
+                <h3>Psiquiatria</h3>
+                <p>Cuidados especializados com atenção e carinho.</p>
+            </div>
+<!--             <div class="service">
+                <h3></h3>
+                
+            </div> -->
+        </section>
+
+        <section class="contact">
+            <h2>Entre em Contato</h2>
+            <p>+55 (51) 992939166</p>
+<!--             <form action="#">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form> -->
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2024 Paz Saúde. Todos os direitos reservados.
+    </footer>
+
+    <div class="chat">
+        <span class="chat-icon">💬</span>
+    </div>
+</body>
+</html>
