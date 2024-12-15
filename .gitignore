@@ -4,6 +4,4 @@ _site
 .jekyll-metadata
 vendor
 gemfiles/
-Gemfile
-Gemfile.lock
 node_modules/
