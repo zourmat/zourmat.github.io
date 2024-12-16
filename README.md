@@ -3,6 +3,7 @@
 # Desenvolvimento e organização de projeto de site estático utilizando Jekyll e GitHub Pages
 <details> 
     <summary>Clique para expandir</summary>
+    
     O Jekyll é um gerador de sites estáticos que usa arquivos de texto simples, como Markdown e HTML, para criar um site completo. Aqui está um resumo de como os arquivos funcionam no repositório com Jekyll:
 
     Estrutura do Repositório Jekyll
